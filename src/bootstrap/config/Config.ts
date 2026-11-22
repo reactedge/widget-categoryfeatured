@@ -7,9 +7,9 @@ export interface WidgetConfig {
         cards: {
             type: 'category' | 'subcategory' | 'product' | 'cms' | 'external';
             title: string;
-            image: string;
-            imageAlt: string;
-            url: string;
+            link: string;
+            thumbnail: string;
+            altText: string;
         }[];
     };
 
